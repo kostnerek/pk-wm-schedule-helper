@@ -6,3 +6,6 @@ body{
     display: flex;
     justify-content: space-between;
 }
+.uppercase{
+    text-transform: uppercase;
+}
