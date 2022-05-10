@@ -1,0 +1,19 @@
+{
+    "name": "PK Plan Helper",
+    "description": "Helps you to navigate through the PK schedule on WM",
+    "version": "0.1.0",
+    "permissions":["scripting", "storage"],
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "128": "logo.png"
+    },
+    "host_permissions":[
+        "http://podzial.mech.pk.edu.pl/stacjonarne/html/index.html"
+    ],
+    "background":{
+        "service_worker": "./background.js"
+    },
+    "manifest_version": 3
+}
