@@ -15,13 +15,7 @@ window.onload = () => {
         lecturesInput.checked = result.hideLectures;
     });
 }
-let fields=[groupInput, projectInput, labInput, compInput, langInput];
-fields.forEach(field => {
-    field.addEventListener('onkeyup', () => {
-        field.value = field.value.toUpperCase();
-        console.log(field.value);
-    })
-});
+
 
 document.querySelector('#save-button').addEventListener('click', () => {
     fields=[projectInput, labInput, compInput, langInput];
